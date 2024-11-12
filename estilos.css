@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	background-color:;
+}
+body{
+	height: 1000px;
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+}
+header{
+	height: 200px;
+	width: 1000px;
+	background-color:pink;
+}
+nav{
+	height:50px ;
+	width: 1000px;
+	background-color: pink;
+}
+main{
+	height: 700px;
+	width: 1000px;
+	background-color:;
+}
+article{
+	height: 700px;
+	width: 800px;
+	background-color:#;	
+	float: left;
+}
+aside{
+	height: 700px;
+	width: 200px;
+	background-color:;
+	float: left;
+}
+footer{
+	height: 50px;
+	width: 1000px;
+	background-color:pink;
+}
+/*Menu de opciones*/
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	font-family: pink;
+}
+
+nav li{
+	display: inline-block;
+	padding: 13px 15px;
+	box-shadow: 0px 0px 10px #ffffff;
+	background-color: skyblue;
+	color: #000;
+}
+
+nav li:hover{
+	background-color: #ffffff;
+	color: #006600;	
+	box-shadow: 0px 0px 20px #000000;
+	transition: 0.6s;
+}
+/*Menu redes sociales*/
+.redes ul{
+	list-style: none;
+	text-align: center;
+}
+
+.redes ul li{
+	display: inline-block;
+	padding: 1px 0px;
+}
+
+.redes ul li img{
+	width:35px;
+}
+
+.redes ul li:hover{
+	box-shadow: 0 0 30px #0000 ;
+	transition: 0.5s;
+	background-color: skyblue;
+
+
